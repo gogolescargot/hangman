@@ -1,1 +1,1 @@
-Jeu du pendu réalisé en python sans librairie (presque)
+Jeu du pendu réalisé en python sans lib (presque)
