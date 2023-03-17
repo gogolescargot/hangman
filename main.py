@@ -1,5 +1,3 @@
-
-
 def emptyList(len):
     list = []
     for i in range (len):
