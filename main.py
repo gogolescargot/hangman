@@ -40,8 +40,8 @@ def pendu():
             guess = input("Entrez une lettre : ")
             guess = convertLowercase(guess)
             if guess != 0 and len(guess) == 1:
+                state = False
                 break
-            state = False
         for j in range(len(word)):
             if guess == word[j]:
                 state = True
