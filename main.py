@@ -12,7 +12,7 @@ def displayList(list):
 def convertLowercase(char):
     lowercase = "abcdefghijklmnopqrstuvwxyz"
     uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    word = []
+    char = list(char)
     for i in range (len(char)):
         if char[i] not in lowercase and char[i] not in uppercase or len(char[i]) != 1:
             return 0
@@ -20,10 +20,8 @@ def convertLowercase(char):
             k = 0
             while char[i] != uppercase[k]:
                 k += 1
-            word.append(lowercase[k])
-        else:
-            word.append(char[i])
-    return "".join(word)    
+            char[i] = lowercase[k]
+    return "".join(char)    
 
 def pendu():
     while True:
@@ -35,7 +33,7 @@ def pendu():
     print(displayList(grid))
     turn = len(word)
     while turn > 0:
-        print("Il vous reste ", turn, " tentative(s)")
+        print("Il vous reste", turn, "tentative(s)")
         while True:
             guess = input("Entrez une lettre : ")
             guess = convertLowercase(guess)
