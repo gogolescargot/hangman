@@ -51,6 +51,3 @@ def pendu():
         if "_" not in grid:
             return "Vous avez gagné le mot était " + word
     return "Vous avez perdu le mot était " + word
-
-
-print (pendu())
