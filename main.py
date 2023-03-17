@@ -1,4 +1,4 @@
-import string
+
 
 def emptyList(len):
     list = []
@@ -12,15 +12,17 @@ def displayList(list):
     return list[-1]
 
 def convertLowercase(char):
+    lowercase = "abcdefghijklmnopqrstuvwxyz"
+    uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     word = []
     for i in range (len(char)):
-        if char[i] not in string.ascii_lowercase and char[i] not in string.ascii_uppercase or len(char[i]) != 1:
+        if char[i] not in lowercase and char[i] not in uppercase or len(char[i]) != 1:
             return 0
-        elif char[i] in string.ascii_uppercase:
+        elif char[i] in uppercase:
             k = 0
-            while char[i] != string.ascii_uppercase[k]:
+            while char[i] != uppercase[k]:
                 k += 1
-            word.append(string.ascii_lowercase[k])
+            word.append(lowercase[k])
         else:
             word.append(char[i])
     return "".join(word)    
