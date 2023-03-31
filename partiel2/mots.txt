@@ -1,0 +1,10 @@
+<mot nom="auberge" def="Une auberge est un établissement d'hébergement touristique de type hôtelier" type="nom commun"/>
+<mot nom="demain" def="Demain définit le jour après aujourd'hui." type="adverbe"/>
+<mot nom="diluer" def="Délayer, étendre (une substance) dans un liquide." type="verbe"/>
+<mot nom="exutoire" def="Ce qui sert à déverser (ce qui gêne, embarrasse)." type="nom masculin"/>
+<mot nom="turban" def="Le turban est un couvre-chef" type="nom masculin"/>
+<mot nom="natation" def="Action de nager." type="nom masculin"/>
+<mot nom="nominatif" def="Qui dénomme, qui contient des noms" type="adjectif"/>
+<mot nom="parapluie" def="Un Parapluie est un dispositif portable et pliable, permettant de se protéger de la pluie et servant aussi à se protéger du soleil." type="nom masculin"/>
+<mot nom="procrastination" def="Penchant à différer, tendance à remettre au lendemain ou à plus tard." type="nom masculin"/>
+<mot nom="protagoniste" def="Personne qui a le rôle principal dans une affaire." type="nom masculin"/>
